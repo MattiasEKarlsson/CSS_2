@@ -12,10 +12,11 @@ input{
     font-size: 1.1rem;
     font-family:font;
     text-align: center;
+    opacity: 0.5;
 
     &::placeholder{
         color: $primary-text-colour;
-        opacity: 0.8;
+        opacity: 0.2;
     }
 }
 
