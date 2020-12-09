@@ -1,25 +1,23 @@
-
 button{
-    border:2px solid $primary-text-colour;
+    border:0.125rem solid $primary-text-colour;
     background-color: transparent;
     text-align: center;
-    padding: 14px 20px;
+    padding: 0.9rem 1.25rem;
     outline:none;
-    width: 200px;
+    width: 12.5rem;
     color:$primary-text-colour ;
-    border-radius: 5px;
+    border-radius: 0.3rem;
     transition: 0.75s;
 
     &:hover{
-        width: 300px;
+        width: 19rem;
         background-color: $primary-text-colour;
         color: black;
-        box-shadow: 0 0px 15px $primary-text-colour;
+        box-shadow: 0 0rem 1rem $primary-text-colour;
     }
 }
 
 .conbtn{
-    margin-bottom: 0rem;
     margin-top: 3rem;
 }
 

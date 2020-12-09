@@ -1,12 +1,11 @@
-
 input{
     padding: 0.5rem;
     margin-bottom: 4rem;
     border: none;
-    border-bottom: 1px solid $primary-text-colour;
-    border-radius: 5px;
-    border-width: 2px;
-    width:250px;
+    border-bottom: 0.063rem solid $primary-text-colour;
+    border-radius: 0.313rem;
+    border-width: 0.125rem;
+    width:15.625rem;
     color: $primary-text-colour;
     background-color: transparent;
     font-size: 1.1rem;
@@ -20,6 +19,10 @@ input{
     }
 }
 
+@media (min-width: 771px) {input{width: 350px;}}
+@media (min-width: 992px) {input{width: 220px;}}
+@media (min-width: 1200px) {input{width: 270px;}}
+
 input[type="email"]
 {
     @media (min-width: 992px) {width: 450px;}
@@ -32,10 +35,6 @@ input[name="bstreetaddress"], [name="dstreetaddress"], [name="loginemail"], [nam
     @media (min-width: 1200px) {width: 550px;}
 }
 
-@media (min-width: 771px) {input{width: 350px;}}
-@media (min-width: 992px) {input{width: 220px;}}
-@media (min-width: 1200px) {input{width: 270px;}}
-
 input[type="checkbox"]
 {
    margin :0;
@@ -43,20 +42,20 @@ input[type="checkbox"]
 
 input[type="submit"]
 {
-    border:2px solid $primary-text-colour;
+    border:0.125rem solid $primary-text-colour;
     background-color: transparent;
     margin-top: 2rem;
     margin-bottom: 5rem;
     text-align: center;
-    padding: 14px 20px;
+    padding: 0.875rem 1.25rem;
     outline:none;
-    width: 200px;
+    width: 12.5;
     color:$primary-text-colour;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     transition: 0.25s;
 
     &:hover{
-        width: 300px;
+        width: 18.75rem;
     }
 }
 

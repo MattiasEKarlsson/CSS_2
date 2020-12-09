@@ -1,8 +1,7 @@
-
 h2{
     font-size: 10rem;
     color:$primary-text-colour ;
-    text-shadow: 0 0px 20px $primary-text-colour;
+    text-shadow: 0 0px 1.25rem $primary-text-colour;
     margin-top: 1.5rem;
     margin-bottom: 5rem;
     font-family: signfont;
@@ -11,7 +10,7 @@ h2{
 h4{
     
     margin-bottom: 3rem;
-    border-bottom: 2px solid $primary-text-colour;
+    text-shadow: 0 0px 1.25rem $primary-text-colour;
     font-size: 1.7rem;
 }
 
