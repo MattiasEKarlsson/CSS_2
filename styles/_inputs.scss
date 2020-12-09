@@ -30,7 +30,7 @@ input[name="bstreetaddress"], [name="dstreetaddress"]
     @media (min-width: 992px) {width: 450px;}
     @media (min-width: 1200px) {width: 550px;}
 }
-
+@media (min-width: 771px) {input{width: 350px;}}
 @media (min-width: 992px) {input{width: 220px;}}
 @media (min-width: 1200px) {input{width: 270px;}}
 
